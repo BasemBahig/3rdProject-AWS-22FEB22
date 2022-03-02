@@ -1,4 +1,6 @@
 import * as dotenv from "dotenv";
+//require('dotenv').config();
+//require('bodyparser').config();
 import cors from "cors";
 import express from "express";
 import { sequelize } from "./sequelize";
@@ -19,6 +21,7 @@ import { V0_FEED_MODELS, V0_USER_MODELS } from "./controllers/v0/model.index";
 
   const app = express();
   const port = process.env.PORT || 8080;
+  //const PASSWORD = process.env.PASSWORD
 
   app.use(bodyParser.json());
 
