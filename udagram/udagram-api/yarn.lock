@@ -900,6 +900,11 @@ dynamic-dedupe@^0.3.0:
   dependencies:
     xtend "^4.0.0"
 
+eb@^0.0.1:
+  version "0.0.1"
+  resolved "https://registry.yarnpkg.com/eb/-/eb-0.0.1.tgz#bffa211677b67266429176dc68f04c5582e9c54e"
+  integrity sha1-v/ohFne2cmZCkXbcaPBMVYLpxU4=
+
 ecdsa-sig-formatter@1.0.11:
   version "1.0.11"
   resolved "https://registry.npmjs.org/ecdsa-sig-formatter/-/ecdsa-sig-formatter-1.0.11.tgz"
